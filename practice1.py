@@ -22,3 +22,10 @@ number = int(input("Enter number: "))
 for x in range(number+1):
     result += x
 print("Sum is: " + str(result))
+
+#Exercise 4: Write a program to print multiplication table of a given number
+number = int(input("Enter a number: "))
+counter = 1
+for n in range (10):
+    print(number * counter)
+    counter += 1
