@@ -11,3 +11,8 @@ while (num <= 10):
 #1 2 3 
 #1 2 3 4 
 #1 2 3 4 5
+for x in range(6):
+    for j in range(x+1):
+        print (j, end=" ")
+    print(' ')
+    
