@@ -16,3 +16,9 @@ for x in range(6):
         print (j, end=" ")
     print(' ')
     
+#Exercise 3: Calculate the sum of all numbers from 1 to a given number
+result = 0
+number = int(input("Enter number: "))
+for x in range(number+1):
+    result += x
+print("Sum is: " + str(result))
